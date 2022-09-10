@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* styling navbar */
+nav {
+    background: #ffffff;
+    padding: 13px 13px 13px 240px;
+}
+
+/* amrita logo */
+img[alt="amrita-logo"] {
+    width: 260px;
+}
+
+/* main */
+main {
+    background: #BD0046;
+}
+
+/* main container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+/* btn1 div */
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* bnt1 and btn2 */
+.btn1, .btn2 {
+    color: #ffffff;
+    background: #bd0046;
+    border: 1px solid #ff0078;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+/* adding hover effect to btn1 */
+.btn1:hover{
+    cursor: pointer;
+    background: #ff0078;
+    border: 1px solid #ffffff;
+    transition: 0.15s ease-in-out;
+}
+
+/* adding hover effect to btn2 */
+.btn1:hover{
+    cursor: pointer;
+    background: #ff0078;
+    border: 1px solid #ffffff;
+    transition: 0.15s ease-in-out;
+}
+
+.btn2:hover{
+    cursor: pointer;
+    background: #ff0078;
+    border: 1px solid #ffffff;
+    transition: 0.15s ease-in-out;
+}
+
+/* a tag styling */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: 500;
+}
+
+/* giving white color to (OR) */
+h3 {
+    color: white;
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+}
+
+/* microsoft logo */
+img[alt="microsoft-logo"] {
+    width: 100px;
+}
+
+.login-info {
+    background: #a0003c;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.172);
+}
+
+/* poster image */
+img[alt="poster"] {
+    width: 650px;
+}
+
+/* styling footer */
+footer {
+    background: #ffffff;
+    position: fixed;
+    padding: 2px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-align: center;
+}
