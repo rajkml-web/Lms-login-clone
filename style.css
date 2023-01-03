@@ -44,6 +44,7 @@ main {
     border: 1px solid #ff0078;
     border-radius: 5px;
     padding: 10px 50px;
+    transition: 0.15s ease-in-out;
 }
 
 /* adding hover effect to btn1 */
@@ -51,7 +52,6 @@ main {
     cursor: pointer;
     background: #ff0078;
     border: 1px solid #ffffff;
-    transition: 0.15s ease-in-out;
 }
 
 /* adding hover effect to btn2 */
@@ -59,14 +59,12 @@ main {
     cursor: pointer;
     background: #ff0078;
     border: 1px solid #ffffff;
-    transition: 0.15s ease-in-out;
 }
 
 .btn2:hover{
     cursor: pointer;
     background: #ff0078;
     border: 1px solid #ffffff;
-    transition: 0.15s ease-in-out;
 }
 
 /* a tag styling */
